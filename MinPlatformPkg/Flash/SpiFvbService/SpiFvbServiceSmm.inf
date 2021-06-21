@@ -32,6 +32,7 @@
   BaseLib
   UefiBootServicesTableLib
   UefiDriverEntryPoint
+  SafeIntLib
   SpiFlashCommonLib
   MmServicesTableLib
 

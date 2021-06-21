@@ -12,6 +12,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Guid/EventGroup.h>
 #include <Guid/FirmwareFileSystem2.h>
 #include <Guid/SystemNvDataGuid.h>
+#include <Pi/PiFirmwareVolume.h>
 #include <Protocol/DevicePath.h>
 #include <Protocol/FirmwareVolumeBlock.h>
 
@@ -24,6 +25,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Library/PcdLib.h>
 #include <Library/DevicePathLib.h>
 #include <Library/HobLib.h>
+#include <Library/SafeIntLib.h>
 
 #include <Library/SpiFlashCommonLib.h>
 
